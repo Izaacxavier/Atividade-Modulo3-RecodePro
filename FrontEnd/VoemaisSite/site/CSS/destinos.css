@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DM+Sans:wght@700&family=DynaPuff:wght@500&family=Kanit:wght@700&family=Lato:wght@300&family=Montserrat:wght@300&family=Poppins:ital@0;1&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.conteudo-principal{
+    background-color: #efefef; 
+    padding: 20px;
+}
+
+.destinos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #efefef;
+    padding: 60px;
+}
+
+.cards-destinos {
+    width: 50vh;
+    height: 400px;
+    background-color: #ffff;
+    border-radius: 15px;
+}
+
+.img-destinos {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-destinos-content {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card-destinos-content h2 {
+    font-size: 18px;
+}
+.img-slide h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+/* Slide card*/
+
+.slide-content {
+    width: 50vh;
+    height: 100%;
+    background-color: #ffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.img-slide{
+    width: 100%;
+    transition: .6s;   
+}
+.slide-content .img-slide img{
+    width: 50vh;
+    height: 400px;
+}
+.slide-content input{
+    display: none;
+}
+.navegation{
+    position: absolute;
+    margin-top: 400px;
+    display: flex;
+}
+.btn-slide{
+    width: 40px;
+    height: 8px;
+    background-color: #6B00C3;
+    margin: 10px;
+    cursor: pointer;
+    transform: 5s ease;
+}
+.btn-slide:hover{
+    background-color: #ffff;
+}
+.slides{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/*Efeito de transisao*/
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+#slide2:checked ~ .s1 {
+    margin-left: -100%;
+}
+#slide3:checked ~ .s1 {
+    margin-left: -200%;
+}
+#slide4:checked ~ .s1 {
+    margin-left: -300%;
+}
+#slide5:checked ~ .s1 {
+    margin-left: -400%;
+}
+/*Efeito de transisao*/
+.grid-destinos{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
