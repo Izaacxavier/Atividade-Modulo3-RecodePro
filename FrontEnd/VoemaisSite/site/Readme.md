@@ -1,1 +1,1 @@
-Secunda Entrega Projeto Individual Recode Pro
+Segunda Entrega Projeto Individual Recode Pro
