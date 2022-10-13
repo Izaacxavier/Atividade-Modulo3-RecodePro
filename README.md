@@ -11,7 +11,7 @@
 </ul>
 <h4>Status:</h4>
 <ul>
-<li>Em construçao</li>
+<li>Em construção</li>
 </ul>
 <hr>
 
@@ -22,7 +22,7 @@
 </ul>
 <h4>Status:</h4>
 <ul>
-<li>Em construçao</li>
+<li>Em construção</li>
 </ul>
 <hr>
 <h3> Banco de Dados</h3>
@@ -32,5 +32,5 @@
 </ul>
 <h4>Status:</h4>
 <ul>
-<li>Em construçao</li>
+<li>Em construção</li>
 </ul>
