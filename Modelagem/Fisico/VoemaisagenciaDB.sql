@@ -14,8 +14,13 @@ endereco VARCHAR(150) NOT NULL,
 telefone VARCHAR(20) NOT NULL,
 cpf CHAR(11) NOT NULL,
 email VARCHAR(50) NOT NULL,
-senha VARCHAR(20) NOT NULL
+senha VARCHAR(20) NOT NULL,
+permissoes_id INT NOT NULL,
+FOREIGN KEY (permissoes_id) REFERENCES permissoes(id_permissoes)
 );
+
+
+SELECt * FROM cliente;
 
 CREATE TABLE viagem(
 id_viagem INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
